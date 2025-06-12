@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+
+body{
+    height: 80vh;
+   
+    margin: 0%;
+    background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
+    color: #333;
+    line-height: 1.6;
+}
+.my-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    color: #fff;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    
+
+.a-element{
+    
+   color:white;
+    padding: 10px;
+    margin: 10px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+    
+}
+.a-element:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* semi-transparent white highlight */
+}
+
+
+.homepage{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items:center;
+    padding-top: 50px;
+
+}
+.homepage-right{
+   width: 70vw;
+  
+    
+}
+.para{
+    padding-left:50px;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
+.aarchana{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    padding-left:50px ;
+   
+}
+.homepage-left{
+    width: 30vw;
+    border-radius: 100%;
+    
+}
+.image{
+    width:250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 40px;
+  
+    
+}
+
+.h1-about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px ;
+    color:rgb(43, 43, 238);
+    padding-top: 50px;
+}
+.p-about{
+    padding-left: 25px;
+}
+.proj{
+    text-align: center;
+    color:rgb(43, 43, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.projects-sub{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.divproject{
+    display: flex;
+    flex-direction: row;
+}
+.bookstore{
+    border:2px solid brown;
+    width: 500px;
+   padding: 10px;
+    margin: 3px;
+    
+}
+.bookstore:hover{
+    background-color: rgb(205, 207, 240);
+
+}
+.aiagent{
+    border:2px solid brown;
+      margin: 3px;
+       width: 500px;
+       padding: 10px;
+       
+}
+.aiagent:hover{
+    background-color: rgb(205, 207, 240);
+}
+
+.portfolio{
+    border:2px solid brown;
+      margin: 3px;
+       width: 500px;
+       padding: 10px;
+      
+}
+.portfolio:hover{
+    background-color: rgb(205, 207, 240);
+}
+
+.skills{
+    padding: 25px;
+    padding-top: 100px;
+}
+.h1-skills{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(43, 43, 238);
+  
+}
+.phcjj{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.phcjj{
+    text-align: center;
+    justify-content: center;
+}
+.python{
+    border: 3px solid rgb(94, 56, 231);
+    margin: 65px;
+    padding: 20px;
+    border-radius: 70%;
+    width:110px;
+}
+.python:hover {
+  background-color: rgba(179, 150, 234, 0.977); 
+}
+.html{
+    border: 3px solid rgb(94, 56, 231);
+    margin:65px;
+    padding: 20px;
+    border-radius: 70%;
+     width:110px;
+    
+}
+.html:hover {
+  background-color: rgba(179, 150, 234, 0.977); 
+}
+    
+
+.css{
+    border: 3px solid rgb(94, 56, 231);
+    margin:65px;
+    padding: 20px;
+    border-radius: 70%;
+     width:110px;
+}
+.css:hover {
+   background-color: rgba(179, 150, 234, 0.977); 
+}
+.java{
+    border: 3px solid rgb(94, 56, 231);
+    margin:65px;
+    padding: 20px;
+    border-radius: 70%;
+     width:110px;
+}
+.java:hover {
+   background-color: rgba(179, 150, 234, 0.977);  /* semi-transparent white highlight */
+}
+.javascript{
+    border: 3px solid rgb(94, 56, 231);
+    margin: 65px;
+    padding: 20px;
+    border-radius: 70%;
+     width:110px;
+}
+.javascript:hover {
+   background-color: rgba(179, 150, 234, 0.977);  /* semi-transparent white highlight */
+}
+.certificates{
+    padding: 30px;
+}
+.h1-certificates{
+    text-align: center;
+    color:rgb(43, 43, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.certificates-sub{
+     display: flex;
+    flex-direction: row;
+
+}
+.nextwave{
+     border:2px solid brown;
+    width: 500px;
+   padding: 10px;
+    margin: 3px;
+
+}
+.hackathon{
+    border:2px solid brown;
+    width: 500px;
+   padding: 10px;
+    margin: 3px;
+}
+.sak{
+     border:2px solid brown;
+    width: 500px;
+   padding: 10px;
+    margin: 3px;
+}
+.infosys{
+     border:2px solid brown;
+    width: 500px;
+   padding: 10px;
+    margin: 3px;
+}
+.h1-contact{
+    text-align: center;
+    color:rgb(43, 43, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+.form{
+    justify-content: center;
+
+   text-align: center;
+  
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4a00e0;
+  color: #fff;
+  font-weight: 500;
+ 
+}
+form button {
+  background: #8e2de2;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #4a00e0;
+}
+.name{
+    border:2px solid black;
+}
